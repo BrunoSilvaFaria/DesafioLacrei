@@ -1,13 +1,16 @@
+import { Conteiner } from "./styles";
 function Page(props) {
   return (
-      <>
-          <section className="hero">
-              <h1>{props.title}</h1>
-              <p>{props.paragraph}</p>
-          </section>
-          <img src={props.img} alt="Ilustração" />
-    </>
-  )
+    <Conteiner>
+      <section className="hero">
+        <h1>{props.title}</h1>
+        <p>{props.paragraph}</p>
+      </section>
+      <div className="conteiner-img">
+        <img src={props.img} alt="Ilustração" />
+      </div>
+    </Conteiner>
+  );
 }
 
-export default Page
+export default Page;
