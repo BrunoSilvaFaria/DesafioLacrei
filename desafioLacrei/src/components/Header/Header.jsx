@@ -1,11 +1,15 @@
 import Nav from "../Nav/Menu/Nav";
+import { Conteiner } from "./styles";
 function Header() {
   return (
-    <>
-      <h1>Titulo</h1>
-      <img src="" alt="Logo do site" />
-      <Nav />
-    </>
+    <Conteiner>
+      <div>
+        <a href="/" className="logo">
+          Lacrei
+        </a>
+        <Nav class="menu" />
+      </div>
+    </Conteiner>
   );
 }
 
