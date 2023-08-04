@@ -68,18 +68,13 @@ a {
 }
 /* === Tipografia === */
 
-body{
-    background-color: red;
-}
 * {
-  font-family: "Heebo", sans-serif;
+  font-family: 'Nunito', sans-serif;
+  color: #1f1f1f;
+  font-weight: 400;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Nunito", sans-serif;
+body{
+  max-width: 1440px;
+  margin: auto;
 }
