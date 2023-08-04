@@ -1,28 +1,25 @@
-import { Link } from "react-router-dom";
-
+import { Conteiner } from "./styles";
 function Social() {
   return (
-    <>
-      <nav>
+      <Conteiner>
         <ul>
           <li>
-            <Link to="/">
-              <img src="" alt="" />
-            </Link>
+            <a href="#">
+              <img src="./assets/InstagramLogo.svg" alt="" />
+            </a>
           </li>
           <li>
-            <Link to="/user">
-              <img src="" alt="" />
-            </Link>
+            <a href="#">
+              <img src="./assets/FacebookLogo.svg" alt="" />
+            </a>
           </li>
           <li>
-            <Link to="/profissional">
-              <img src="" alt="" />
-            </Link>
+            <a href="#">
+              <img src="./assets/LinkedinLogo.svg" alt="" />
+            </a>
           </li>
         </ul>
-      </nav>
-    </>
+      </Conteiner>
   );
 }
 
