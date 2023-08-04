@@ -1,22 +1,37 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { Conteiner } from "./styles";
 
-function Nav() {
+function Nav(props) {
   return (
-    <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/usuario">Pessoa Usuária</Link>
-          </li>
-          <li>
-            <Link to="/profissional">Profissional</Link>
-          </li>
-        </ul>
-      </nav>
-    </>
+    <Conteiner>
+      <ul className={props.class}>
+        <li>
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            Home
+          </NavLink>
+        </li>
+        
+        <li>
+          <NavLink
+            to="/usuario"
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            Pessoa Usuária
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/profissional"
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            Profissional
+          </NavLink>
+        </li>
+      </ul>
+    </Conteiner>
   );
 }
 
