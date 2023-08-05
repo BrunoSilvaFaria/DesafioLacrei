@@ -8,7 +8,7 @@ npm run dev
 
 <h2>Deploy do site: </h2>
 
-(Demo)[https://desafio-lacrei-ifu6.vercel.app/]
+[Demo](https://desafio-lacrei-ifu6.vercel.app/)
 
 <h2> Processo de desenvolvimento:</h2>
 
