@@ -14,7 +14,9 @@ npm run dev
 - Criação de arquivos responsáveis por auxiliar (cor e tipografia), assim como, estilos padrões e que se repetem ao longo do site
 - Em suma, embora "pequeno", eu desenvolvi, pensando justamente, num potencial aumento - caso surgisse novas telas ou mesmo o reaproveitamento de código, seria mais fácil de implementar.
 
+<h2>Deploy do site: </h2>
 
+(Demo)[https://desafio-lacrei-ifu6.vercel.app/]
 <h3>Ferramentas</h3>
 
 - [Arquitetura BEM](https://en.bem.info/methodology/css/)
